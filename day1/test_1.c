@@ -16,7 +16,7 @@ return 0;
 // c 语言数据类型
 //e.g. 价格 - 15.6元 - 小数（浮点数）
 //e.g. 年龄 - 整型（15）
-//char字符数据类型 （'a'-字符a） sizeof（大小为1）单位byte
+//char字符数据类型- %s （'a'-字符a） sizeof（大小为1）单位byte
 //short 短整型                  sizeof（大小为2）单位byte
 //int   //打印一个整数-%d       sizeof（大小为4） 单位byte
 //long 长整型                   sizeof（大小为4）单位byte
