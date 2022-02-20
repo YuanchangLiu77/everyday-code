@@ -1,34 +1,17 @@
 int main()
 {
-    int day = 0;
-    scanf("%d",&day );
-    switch (day)
+    char arr1[] = "welcome to bit !!!!!!";
+    char arr2[] = "#####################";
+    int left = 0;
+    int right = strlen(arr1) - 1;
+    while (left<=right)
     {
-    case 1:
-        printf("11\n");
-        break;
-    case 2:
-        printf("22\n");
-        break;
-    case 3:
-        printf("33\n");
-        break;
-    case 4:
-        printf("44\n");
-        break;
-    case 5:
-        printf("55\n");
-        break;
-    case 6:
-        printf("66\n");
-        break;
-    case 7:
-        printf("77\n");
-        break;
-    
-    default:
-        printf("wrong\n");
-        break;
+    arr2[left] = arr1[left];
+    arr2[right] = arr1[right];
+    printf("%s\n",arr2);
+    Sleep(1000);
+    left++;
+    right--;
     }
-return 0;    
+    return 0;
 }
